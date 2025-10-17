@@ -1,17 +1,13 @@
-# GitHub User Fetcher
+# GitHub User Lookup App
 
-This is a simple web application that fetches a GitHub user's account creation date using their username.
+This is a simple web application that allows you to look up GitHub users by their username. The app provides the following features:
 
-## How to Use
-1. Enter a GitHub username in the input field.
-2. Optionally, provide a personal access token for private account access.
-3. Click on 'Fetch User' to see the account creation date displayed below.
+- **User Lookup**: Enter a GitHub username to fetch user details.
+- **Account Age Display**: Shows how many days the account has been active.
+- **LocalStorage Caching**: Caches user data to reduce API calls.
+- **Aria-live Status Updates**: Provides live status updates for accessibility.
 
-## Requirements
-- Internet connection to access the GitHub API.
-- A modern web browser.
-
-## Technologies Used
-- HTML
-- Bootstrap
-- JavaScript
+## How to Run
+1. Open `index.html` in a web browser.
+2. Enter a GitHub username and click 'Lookup'.
+3. View the user information displayed below the input.
